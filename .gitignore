@@ -1,0 +1,66 @@
+# Environment variables and credentials
+.env
+.env.*
+*.env
+!.env.example
+
+# Personal notes and todos
+todo.txt
+TODO.txt
+*.todo
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+docker-compose.yml
+*/Dockerfile
+*/dockerfile
+
+# Database files and data
+postgresql/
+*.sql
+*.db
+*.sqlite
+*.sqlite3
+
+# Nginx
+nginx/
+*.crt
+*.key
+*.pem
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Credentials and secrets
+*credentials*
+*secret*
+*password*
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+claude.md
