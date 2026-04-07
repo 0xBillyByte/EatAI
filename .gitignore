@@ -64,3 +64,4 @@ Thumbs.db
 id_rsa
 id_rsa.pub
 claude.md
+.claude/
